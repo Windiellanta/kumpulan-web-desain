@@ -1,0 +1,32 @@
+button{
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(108, 145, 146);
+}
+
+button:active{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+a{
+color: blue;
+text-decoration: underline;
+}
+a:visited{
+    color: rgb(219, 113, 113);
+    font-style: italic;
+}
+a[target="_Blank"]{
+    color: rgb(153, 87, 87);
+}
+a[href="stmikaputam.ac.id"]{
+    color: rgba(46, 252, 5, 0.829);
+}
